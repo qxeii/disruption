@@ -1,0 +1,41 @@
+[19:05:15] [main/INFO] (Quilt Loader/GameProvider) Loading Minecraft 1.18.2 with Quilt Loader 0.16.0-beta.16
+[19:05:15] [main/ERROR] (Quilt Loader) Incompatible mod set!
+org.quiltmc.loader.impl.FormattedException: org.quiltmc.loader.impl.discovery.ModSolvingException: Found 2 errors while resolving mods!
+	at org.quiltmc.loader.impl.QuiltLoaderImpl.load(QuiltLoaderImpl.java:211) ~[quilt-loader-0.16.0-beta.16.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) ~[quilt-loader-0.16.0-beta.16.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:70) [quilt-loader-0.16.0-beta.16.jar:?]
+	at org.quiltmc.loader.launch.knot.KnotHelper.launchClient(KnotHelper.java:28) [quilt-loader-0.16.0-beta.16.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:23) [quilt-loader-0.16.0-beta.16.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+Caused by: org.quiltmc.loader.impl.discovery.ModSolvingException: Found 2 errors while resolving mods!
+	at org.quiltmc.loader.impl.solver.ModSolver.findCompatibleSet(ModSolver.java:265) ~[quilt-loader-0.16.0-beta.16.jar:?]
+	at org.quiltmc.loader.impl.discovery.ModResolver.resolve(ModResolver.java:429) ~[quilt-loader-0.16.0-beta.16.jar:?]
+	at org.quiltmc.loader.impl.QuiltLoaderImpl.setup(QuiltLoaderImpl.java:220) ~[quilt-loader-0.16.0-beta.16.jar:?]
+	at org.quiltmc.loader.impl.QuiltLoaderImpl.load(QuiltLoaderImpl.java:209) ~[quilt-loader-0.16.0-beta.16.jar:?]
+	... 5 more
+	Suppressed: org.quiltmc.loader.impl.discovery.ModSolvingException: Unhandled error involving mod 'Disruption' (disruption) v1.0.0+1.20.1:
+Depencency for mod 'disruption' on quilted_fabric_api versions [>=7] (0 valid options, 1 invalid options)
+	x mod 'quilted_fabric_api' version 1.0.0-beta.13+0.51.1-1.18.2 loaded from C:\GitHub\disruption\.gradle\quilt-loom-cache\remapped_mods\loom_mappings_1_18_2_layered_hash_916697315_v2\org\quiltmc\quilted-fabric-api\quilted-fabric-api\1.0.0-beta.13+0.51.1-1.18.2\quilted-fabric-api-1.0.0-beta.13+0.51.1-1.18.2.jar
+		at org.quiltmc.loader.impl.solver.ModSolver.fallbackErrorDescription(ModSolver.java:614) ~[quilt-loader-0.16.0-beta.16.jar:?]
+		at org.quiltmc.loader.impl.solver.ModSolver.findCompatibleSet(ModSolver.java:243) ~[quilt-loader-0.16.0-beta.16.jar:?]
+		at org.quiltmc.loader.impl.discovery.ModResolver.resolve(ModResolver.java:429) ~[quilt-loader-0.16.0-beta.16.jar:?]
+		at org.quiltmc.loader.impl.QuiltLoaderImpl.setup(QuiltLoaderImpl.java:220) ~[quilt-loader-0.16.0-beta.16.jar:?]
+		at org.quiltmc.loader.impl.QuiltLoaderImpl.load(QuiltLoaderImpl.java:209) ~[quilt-loader-0.16.0-beta.16.jar:?]
+		at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) ~[quilt-loader-0.16.0-beta.16.jar:?]
+		at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:70) [quilt-loader-0.16.0-beta.16.jar:?]
+		at org.quiltmc.loader.launch.knot.KnotHelper.launchClient(KnotHelper.java:28) [quilt-loader-0.16.0-beta.16.jar:?]
+		at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:23) [quilt-loader-0.16.0-beta.16.jar:?]
+		at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+	Suppressed: org.quiltmc.loader.impl.discovery.ModSolvingException: Unhandled error involving mod 'Disruption' (disruption) v1.0.0+1.20.1:
+Depencency for mod 'disruption' on quilt_loader versions [>=0.19] (0 valid options, 1 invalid options)
+	x mod 'quilt_loader' version 0.16.0-beta.16 loaded from C:\GitHub\disruption\.gradle\quilt-loom-cache\remapped_mods\loom_mappings_1_18_2_layered_hash_916697315_v2\org\quiltmc\quilt-loader\0.16.0-beta.16\quilt-loader-0.16.0-beta.16.jar
+		at org.quiltmc.loader.impl.solver.ModSolver.fallbackErrorDescription(ModSolver.java:614) ~[quilt-loader-0.16.0-beta.16.jar:?]
+		at org.quiltmc.loader.impl.solver.ModSolver.findCompatibleSet(ModSolver.java:243) ~[quilt-loader-0.16.0-beta.16.jar:?]
+		at org.quiltmc.loader.impl.discovery.ModResolver.resolve(ModResolver.java:429) ~[quilt-loader-0.16.0-beta.16.jar:?]
+		at org.quiltmc.loader.impl.QuiltLoaderImpl.setup(QuiltLoaderImpl.java:220) ~[quilt-loader-0.16.0-beta.16.jar:?]
+		at org.quiltmc.loader.impl.QuiltLoaderImpl.load(QuiltLoaderImpl.java:209) ~[quilt-loader-0.16.0-beta.16.jar:?]
+		at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:141) ~[quilt-loader-0.16.0-beta.16.jar:?]
+		at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:70) [quilt-loader-0.16.0-beta.16.jar:?]
+		at org.quiltmc.loader.launch.knot.KnotHelper.launchClient(KnotHelper.java:28) [quilt-loader-0.16.0-beta.16.jar:?]
+		at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:23) [quilt-loader-0.16.0-beta.16.jar:?]
+		at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]

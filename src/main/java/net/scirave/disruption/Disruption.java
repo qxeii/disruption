@@ -12,9 +12,9 @@
 package net.scirave.disruption;
 
 import net.minecraft.block.Block;
-import net.minecraft.tag.TagKey;
+import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
+import net.minecraft.registry.Registry;
 import net.minecraft.world.event.GameEvent;
 import net.scirave.disruption.helpers.GameEventReferenceInterface;
 import org.quiltmc.loader.api.ModContainer;

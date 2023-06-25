@@ -12,8 +12,8 @@
 package net.scirave.disruption.helpers;
 
 import net.scirave.disruption.logic.FallingBlockGroup;
+import org.jetbrains.annotations.Nullable;
 
-import javax.annotation.Nullable;
 
 public interface FallingGroupInterface {
 
