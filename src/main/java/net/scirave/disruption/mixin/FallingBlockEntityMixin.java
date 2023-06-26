@@ -20,18 +20,19 @@ import net.scirave.disruption.helpers.EntityVelocityInterface;
 import net.scirave.disruption.helpers.FallingGroupInterface;
 import net.scirave.disruption.logic.BlockHandler;
 import net.scirave.disruption.logic.FallingBlockGroup;
+import org.jetbrains.annotations.Nullable;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import javax.annotation.Nullable;
 
 @Mixin(FallingBlockEntity.class)
 public abstract class FallingBlockEntityMixin extends EntityMixin implements FallingGroupInterface {
 
-	@Nullable public FallingBlockGroup fallingGroup = null;
+	@Nullable
+	public FallingBlockGroup fallingGroup = null;
 
 	@Inject(method = "tick", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/FallingBlockEntity;discard()V", ordinal = 2), cancellable = true)
 	public void disruption$preventDiscard1(CallbackInfo ci) {

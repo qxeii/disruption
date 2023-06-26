@@ -11,7 +11,7 @@
 
 package net.scirave.disruption.helpers;
 
-import net.minecraft.util.Holder;
+import net.minecraft.registry.Holder;
 import net.minecraft.world.event.GameEvent;
 
 public interface GameEventReferenceInterface {

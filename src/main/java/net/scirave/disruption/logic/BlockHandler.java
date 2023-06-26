@@ -18,6 +18,7 @@ import net.minecraft.entity.FallingBlockEntity;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.network.packet.s2c.play.BlockUpdateS2CPacket;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.state.property.Properties;
@@ -29,6 +30,8 @@ import net.scirave.disruption.Disruption;
 import net.scirave.disruption.DisruptionConfig;
 import net.scirave.disruption.helpers.FakeAboveShapeContext;
 import net.scirave.disruption.helpers.FallingGroupInterface;
+
+import javax.naming.spi.DirStateFactory;
 
 public class BlockHandler {
 
@@ -42,9 +45,9 @@ public class BlockHandler {
 
     public static boolean blockNotFall(BlockState above, BlockState below, World world, BlockPos posBelow) {
 
-        Material material = below.getMaterial();
+        AbstractBlock material = below.getBlock();
 
-        if (material.isLiquid()) {
+        if (material.equals(Blocks.WATER) || material.equals(Blocks.LAVA)) {
             return isBuoyant(above);
         }
 
@@ -92,7 +95,7 @@ public class BlockHandler {
 
 	public static boolean isBuoyant(BlockState state) {
 		Block block = state.getBlock();
-		return state.getMaterial().isBurnable() || block.getSlipperiness() > 0.6f || Disruption.hasBlockTag(Disruption.BUOYANT, block);
+		return state.isLavaIgnitable() || block.getSlipperiness() > 0.6f || Disruption.hasBlockTag(Disruption.BUOYANT, block);
 	}
 
     public static boolean canHang(BlockState state) {
@@ -197,11 +200,14 @@ public class BlockHandler {
         return false;
     }
 	public static boolean isBlockReplaceable(BlockState state) {
-		return state.getMaterial().isReplaceable() || state.getPistonBehavior() == PistonBehavior.DESTROY;
+		Block block = state.getBlock();
+		return Disruption.hasBlockTag(BlockTags.REPLACEABLE, block) || state.getPistonBehavior() == PistonBehavior.DESTROY;
 	}
 
 	public static boolean isBlockIntangible(BlockState state, World world, BlockPos pos) {
-		return isBlockReplaceable(state) && !(state.getMaterial().blocksMovement() || !state.getCollisionShape(world, pos, FakeAboveShapeContext.INSTANCE).isEmpty());
+		Block block = state.getBlock();
+		AbstractBlock.AbstractBlockState abstractState = state;
+		return isBlockReplaceable(state) && !(abstractState.blocksMovement() || !state.getCollisionShape(world, pos, FakeAboveShapeContext.INSTANCE).isEmpty());
 	}
 
 	public static boolean placeFallingBlock(FallingBlockEntity fallingBlock) {
@@ -234,7 +240,6 @@ public class BlockHandler {
 			if (world.setBlockState(blockPos, blockState, 3)) {
 				((ServerWorld) world)
 						.getChunkManager()
-						.threadedAnvilChunkStorage
 						.sendToOtherNearbyPlayers(fallingBlock, new BlockUpdateS2CPacket(blockPos, world.getBlockState(blockPos)));
 				fallingBlock.discard();
 

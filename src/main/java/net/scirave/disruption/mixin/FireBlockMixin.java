@@ -11,6 +11,8 @@
 
 package net.scirave.disruption.mixin;
 
+import net.minecraft.util.random.RandomGenerator;
+import net.minecraft.world.event.GameEvent;
 import net.scirave.disruption.Disruption;
 import net.minecraft.block.*;
 import net.minecraft.util.math.BlockPos;
@@ -26,9 +28,10 @@ import java.util.Random;
 public abstract class FireBlockMixin extends BlockMixin {
 
     @Inject(method = "trySpreadingFire", at = @At("RETURN"))
-    protected void disruption$fireSpread(World world, BlockPos pos, int spreadFactor, Random rand, int currentAge, CallbackInfo ci) {
+    protected void disruption$fireSpread(World world, BlockPos pos, int spreadFactor, RandomGenerator random, int currentAge, CallbackInfo ci) {
 		if (world.getBlockState(pos).isAir()) {
-			world.emitGameEvent(Disruption.FIRE_SPREAD, pos);
+			GameEvent.Context context = GameEvent.Context.create(world.getBlockState(pos));
+			world.emitGameEvent(Disruption.FIRE_SPREAD, pos, context);
 		}
     }
 }

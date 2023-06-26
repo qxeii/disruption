@@ -46,5 +46,15 @@
       <option name="name" value="Quilt Releases2" />
       <option name="url" value="https://maven.quiltmc.org/repository/release" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="LoomGlobalMinecraft" />
+      <option name="name" value="LoomGlobalMinecraft" />
+      <option name="url" value="file:/$USER_HOME$/.gradle/caches/quilt-loom/minecraftMaven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="LoomLocalMinecraft" />
+      <option name="name" value="LoomLocalMinecraft" />
+      <option name="url" value="file:/$PROJECT_DIR$/.gradle/quilt-loom-cache/minecraftMaven/" />
+    </remote-repository>
   </component>
 </project>

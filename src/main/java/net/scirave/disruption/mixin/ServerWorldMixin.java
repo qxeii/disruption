@@ -31,8 +31,8 @@ public class ServerWorldMixin {
 	public final HashSet<BlockPos> disruption = new HashSet<>();
 	public final HashSet<BlockPos> neighborDisruptions = new HashSet<>();
 
-	@Inject(method = "emitGameEvent", at = @At("RETURN"))
-	public void disruption$detectDisruption(Entity entity, GameEvent event, BlockPos pos, CallbackInfo ci) {
+	@Inject(method = "emitGameEvent", at = @At(value = "RETURN", target = "Lnet/minecraft/world/WorldAccess;emitGameEvent(Lnet/minecraft/entity/Entity;Lnet/minecraft/world/event/GameEvent;Lnet/minecraft/util/math/BlockPos;)V"))
+	public void disruption$detectDisruption(Entity entity, GameEvent event, BlockPos pos) {
 		boolean entityExists = entity != null;
 
 		if (entityExists) {

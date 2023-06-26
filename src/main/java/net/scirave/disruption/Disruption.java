@@ -12,6 +12,8 @@
 package net.scirave.disruption;
 
 import net.minecraft.block.Block;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 import net.minecraft.registry.Registry;
@@ -45,24 +47,24 @@ public class Disruption implements ModInitializer {
 	}
 
 	public static TagKey<Block> getBlockTag(String id) {
-		return TagKey.of(Registry.BLOCK_KEY, getIdentifier(id));
+		return TagKey.of(RegistryKeys.BLOCK, getIdentifier(id));
 	}
 	public static TagKey<GameEvent> getGameEventTag(String id) {
-		return TagKey.of(Registry.GAME_EVENT_KEY, getIdentifier(id));
+		return TagKey.of(RegistryKeys.GAME_EVENT, getIdentifier(id));
 	}
 
 	public static boolean hasBlockTag(TagKey<Block> tag, Block block) {
-		return block.getBuiltInRegistryHolder().hasTag(tag);
+		return block.getBuiltInRegistryHolder().getRegistryKey().equals(tag);
 	}
 
 	public static boolean hasGameEventTag(TagKey<GameEvent> tag, GameEvent event) {
-		return ((GameEventReferenceInterface) event).getBuiltInRegistryHolder().hasTag(tag);
+		return ((GameEventReferenceInterface) event).getBuiltInRegistryHolder().getRegistryKey().equals(tag);
 	}
 
     @Override
     public void onInitialize(ModContainer mod) {
-		Registry.register(Registry.GAME_EVENT, Identifier.tryParse(FIRE_SPREAD.getId()), FIRE_SPREAD);
-		Registry.register(Registry.GAME_EVENT, Identifier.tryParse(BLOCK_EXPLODED.getId()), BLOCK_EXPLODED);
+		Registry.register(Registries.GAME_EVENT, Identifier.tryParse(FIRE_SPREAD.getId()), FIRE_SPREAD);
+		Registry.register(Registries.GAME_EVENT, Identifier.tryParse(BLOCK_EXPLODED.getId()), BLOCK_EXPLODED);
 
         Logger.getLogger(MOD_ID).log(Level.INFO, "[{}] It's raining stone and.. barrels?", mod.metadata().name());
     }
