@@ -5,14 +5,14 @@
 		"id": "disruption",
 		"version": "${version}",
 		"metadata": {
-			"name": "Disruption",
+			"name": "Redisruption",
 			"description": "A mod about about cave-ins and falling blocks.",
 			"contributors": {
-				"SciRave": "Owner"
+				"qxeii": "Owner"
 			},
 			"contact": {
-				"issues": "https://github.com/scirave2/disruption/issues",
-				"sources": "https://github.com/scirave2/disruption"
+				"issues": "https://github.com/qxeii/redisruption/issues",
+				"sources": "https://github.com/qxeii/redisruption"
 			},
 			"icon": "assets/disruption/icon.png"
 		},
