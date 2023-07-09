@@ -1,8 +1,8 @@
-[15:52:27] [main/INFO] (Quilt Loader/GameProvider) Loading Minecraft 1.20.1 with Quilt Loader 0.20.0-beta.2
-[15:52:27] [main/WARN] (Quilt Loader/Solving) Ignoring duplicate mod quilted_fabric_api of the same version 7.0.5+0.84.0-1.20.1 loaded from C:\GitHub\disruption\run\mods\qfapi-7.0.5_qsl-6.0.4_fapi-0.84.0_mc-1.20.1.jar
-[15:52:28] [main/INFO] (Quilt Loader/Cache) Not reusing previous transform cache since we're in a development environment
-[15:52:28] [main/INFO] (Quilt Loader/Mappings) Loading mappings: jar:file:/C:/Users/gabri/.gradle/caches/quilt-loom/1.20.1/org.quiltmc.quilt-mappings.1_20_1.1.20.1+build.13-v2/mappings.jar!/mappings/mappings.tiny
-[15:52:31] [main/INFO] (Quilt Loader) Loading 90 mods:
+[18:02:04] [main/INFO] (Quilt Loader/GameProvider) Loading Minecraft 1.20.1 with Quilt Loader 0.20.0-beta.2
+[18:02:04] [main/WARN] (Quilt Loader/Solving) Ignoring duplicate mod quilted_fabric_api of the same version 7.0.5+0.84.0-1.20.1 loaded from C:\GitHub\disruption\run\mods\qfapi-7.0.5_qsl-6.0.4_fapi-0.84.0_mc-1.20.1.jar
+[18:02:05] [main/INFO] (Quilt Loader/Cache) Not reusing previous transform cache since we're in a development environment
+[18:02:05] [main/INFO] (Quilt Loader/Mappings) Loading mappings: jar:file:/C:/Users/gabri/.gradle/caches/quilt-loom/1.20.1/org.quiltmc.quilt-mappings.1_20_1.1.20.1+build.13-v2/mappings.jar!/mappings/mappings.tiny
+[18:02:08] [main/INFO] (Quilt Loader) Loading 90 mods:
 | Index | Mod                                               | ID                                           | Version             | Type    | File Hash (SHA-1)                        | File(s)                                                                                                                                                                                                                                                               | Sub-File                                                             |
 |------:|---------------------------------------------------|----------------------------------------------|---------------------|---------|------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 |    79 | Java HotSpot(TM) 64-Bit Server VM                 | java                                         | 17                  | Builtin |                                          | C:\Program Files\Java\jdk-17.0.2                                                                                                                                                                                                                                      |                                                                      |
@@ -98,210 +98,210 @@
 |------:|---------------------------------------------------|----------------------------------------------|---------------------|---------|------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 Mod Table Version: 2
 Plugin Types: {quilted_fabric_loader=[Fabric], quilt_loader=[Quilt, Builtin]}
-[15:52:31] [main/INFO] (Quilt Loader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/gabri/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Quilt Env=CLIENT
-[15:52:31] [main/INFO] (Quilt Loader/Mixin) Loaded Quilt development mappings for mixin remapper!
-[15:52:31] [main/INFO] (Quilt Loader/Mixin) Compatibility level set to JAVA_17
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/screen/ScreenMixin.class', but only a single one can be returned!
+[18:02:08] [main/INFO] (Quilt Loader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/gabri/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Quilt Env=CLIENT
+[18:02:09] [main/INFO] (Quilt Loader/Mixin) Loaded Quilt development mappings for mixin remapper!
+[18:02:09] [main/INFO] (Quilt Loader/Mixin) Compatibility level set to JAVA_17
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/screen/ScreenMixin.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/mixin/screen/ScreenMixin.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/screen/ScreenMixin.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/client/keybinding/KeyBindingAccessor.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/client/keybinding/KeyBindingAccessor.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-key-binding-api-v1.i0] /net/fabricmc/fabric/mixin/client/keybinding/KeyBindingAccessor.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/client/keybinding/KeyBindingAccessor.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/client/keybinding/GameOptionsMixin.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/client/keybinding/GameOptionsMixin.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-key-binding-api-v1.i0] /net/fabricmc/fabric/mixin/client/keybinding/GameOptionsMixin.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/client/keybinding/GameOptionsMixin.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/resource/loader/KeyedResourceReloadListenerMixin.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/resource/loader/KeyedResourceReloadListenerMixin.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-resource-loader-v0.i0] /net/fabricmc/fabric/mixin/resource/loader/KeyedResourceReloadListenerMixin.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/resource/loader/KeyedResourceReloadListenerMixin.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/resource/loader/NamespaceResourceManagerMixin.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/resource/loader/NamespaceResourceManagerMixin.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-resource-loader-v0.i0] /net/fabricmc/fabric/mixin/resource/loader/NamespaceResourceManagerMixin.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/resource/loader/NamespaceResourceManagerMixin.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/resource/loader/ResourceMixin.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/resource/loader/ResourceMixin.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-resource-loader-v0.i0] /net/fabricmc/fabric/mixin/resource/loader/ResourceMixin.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/resource/loader/ResourceMixin.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/resource/loader/ResourcePackProfileMixin.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/resource/loader/ResourcePackProfileMixin.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-resource-loader-v0.i0] /net/fabricmc/fabric/mixin/resource/loader/ResourcePackProfileMixin.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/resource/loader/ResourcePackProfileMixin.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/resource/loader/client/FontManagerMixin.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/resource/loader/client/FontManagerMixin.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-resource-loader-v0.i0] /net/fabricmc/fabric/mixin/resource/loader/client/FontManagerMixin.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/resource/loader/client/FontManagerMixin.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/resource/loader/client/KeyedResourceReloadListenerClientMixin.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/resource/loader/client/KeyedResourceReloadListenerClientMixin.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-resource-loader-v0.i0] /net/fabricmc/fabric/mixin/resource/loader/client/KeyedResourceReloadListenerClientMixin.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/resource/loader/client/KeyedResourceReloadListenerClientMixin.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/event/lifecycle/DataPackContentsMixin.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/event/lifecycle/DataPackContentsMixin.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/mixin/event/lifecycle/DataPackContentsMixin.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/event/lifecycle/DataPackContentsMixin.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/event/lifecycle/LivingEntityMixin.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/event/lifecycle/LivingEntityMixin.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/mixin/event/lifecycle/LivingEntityMixin.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/event/lifecycle/LivingEntityMixin.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/event/lifecycle/PlayerManagerMixin.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/event/lifecycle/PlayerManagerMixin.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/mixin/event/lifecycle/PlayerManagerMixin.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/event/lifecycle/PlayerManagerMixin.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/event/lifecycle/ThreadedAnvilChunkStorageMixin.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/event/lifecycle/ThreadedAnvilChunkStorageMixin.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/mixin/event/lifecycle/ThreadedAnvilChunkStorageMixin.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/event/lifecycle/ThreadedAnvilChunkStorageMixin.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/event/lifecycle/WorldMixin.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/event/lifecycle/WorldMixin.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/mixin/event/lifecycle/WorldMixin.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/event/lifecycle/WorldMixin.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/event/lifecycle/client/ClientChunkManagerMixin.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/event/lifecycle/client/ClientChunkManagerMixin.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/mixin/event/lifecycle/client/ClientChunkManagerMixin.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/event/lifecycle/client/ClientChunkManagerMixin.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/event/lifecycle/client/ClientPlayNetworkHandlerMixin.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/event/lifecycle/client/ClientPlayNetworkHandlerMixin.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/mixin/event/lifecycle/client/ClientPlayNetworkHandlerMixin.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/event/lifecycle/client/ClientPlayNetworkHandlerMixin.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/event/lifecycle/client/WorldChunkMixin.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/event/lifecycle/client/WorldChunkMixin.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/mixin/event/lifecycle/client/WorldChunkMixin.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/event/lifecycle/client/WorldChunkMixin.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$BeforeInit.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$BeforeInit.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$BeforeInit.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$BeforeInit.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$AfterInit.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$AfterInit.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$AfterInit.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$AfterInit.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$Remove.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$Remove.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$Remove.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$Remove.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$BeforeTick.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$BeforeTick.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$BeforeTick.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$BeforeTick.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$AfterTick.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$AfterTick.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$AfterTick.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$AfterTick.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$BeforeRender.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$BeforeRender.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$BeforeRender.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$BeforeRender.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$AfterRender.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$AfterRender.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$AfterRender.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenEvents$AfterRender.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$AllowKeyPress.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$AllowKeyPress.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$AllowKeyPress.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$AllowKeyPress.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$BeforeKeyPress.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$BeforeKeyPress.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$BeforeKeyPress.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$BeforeKeyPress.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$AfterKeyPress.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$AfterKeyPress.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$AfterKeyPress.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$AfterKeyPress.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$AllowKeyRelease.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$AllowKeyRelease.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$AllowKeyRelease.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$AllowKeyRelease.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$BeforeKeyRelease.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$BeforeKeyRelease.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$BeforeKeyRelease.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$BeforeKeyRelease.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$AfterKeyRelease.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$AfterKeyRelease.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$AfterKeyRelease.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenKeyboardEvents$AfterKeyRelease.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AllowMouseClick.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AllowMouseClick.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AllowMouseClick.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AllowMouseClick.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$BeforeMouseClick.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$BeforeMouseClick.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$BeforeMouseClick.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$BeforeMouseClick.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AfterMouseClick.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AfterMouseClick.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AfterMouseClick.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AfterMouseClick.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AllowMouseRelease.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AllowMouseRelease.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AllowMouseRelease.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AllowMouseRelease.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$BeforeMouseRelease.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$BeforeMouseRelease.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$BeforeMouseRelease.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$BeforeMouseRelease.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AfterMouseRelease.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AfterMouseRelease.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AfterMouseRelease.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AfterMouseRelease.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AllowMouseScroll.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AllowMouseScroll.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AllowMouseScroll.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AllowMouseScroll.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$BeforeMouseScroll.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$BeforeMouseScroll.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$BeforeMouseScroll.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$BeforeMouseScroll.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AfterMouseScroll.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AfterMouseScroll.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AfterMouseScroll.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenMouseEvents$AfterMouseScroll.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/CommonLifecycleEvents$TagsLoaded.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/CommonLifecycleEvents$TagsLoaded.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/CommonLifecycleEvents$TagsLoaded.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/CommonLifecycleEvents$TagsLoaded.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerEntityEvents$EquipmentChange.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerEntityEvents$EquipmentChange.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerEntityEvents$EquipmentChange.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerEntityEvents$EquipmentChange.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$SyncDataPackContents.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$SyncDataPackContents.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$SyncDataPackContents.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$SyncDataPackContents.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerChunkEvents$Unload.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerChunkEvents$Unload.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerChunkEvents$Unload.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerChunkEvents$Unload.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerChunkEvents$Load.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerChunkEvents$Load.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerChunkEvents$Load.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerChunkEvents$Load.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientChunkEvents$Load.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientChunkEvents$Load.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientChunkEvents$Load.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientChunkEvents$Load.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientChunkEvents$Unload.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientChunkEvents$Unload.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientChunkEvents$Unload.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientChunkEvents$Unload.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientEntityEvents$Unload.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientEntityEvents$Unload.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientEntityEvents$Unload.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientEntityEvents$Unload.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientBlockEntityEvents$Unload.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientBlockEntityEvents$Unload.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientBlockEntityEvents$Unload.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientBlockEntityEvents$Unload.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerBlockEntityEvents$Load.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerBlockEntityEvents$Load.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerBlockEntityEvents$Load.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerBlockEntityEvents$Load.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientBlockEntityEvents$Load.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientBlockEntityEvents$Load.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientBlockEntityEvents$Load.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientBlockEntityEvents$Load.class
-[15:52:32] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerBlockEntityEvents$Unload.class', but only a single one can be returned!
+[18:02:09] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerBlockEntityEvents$Unload.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerBlockEntityEvents$Unload.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerBlockEntityEvents$Unload.class
-[15:52:33] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/event/lifecycle/LoadedChunksCache.class', but only a single one can be returned!
+[18:02:10] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/event/lifecycle/LoadedChunksCache.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/impl/event/lifecycle/LoadedChunksCache.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/event/lifecycle/LoadedChunksCache.class
-[15:52:33] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/event/lifecycle/package-info.class', but only a single one can be returned!
+[18:02:10] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/event/lifecycle/package-info.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/impl/event/lifecycle/package-info.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/event/lifecycle/package-info.class
-[15:52:33] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/EventFactory.class', but only a single one can be returned!
+[18:02:10] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/EventFactory.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/EventFactory.class
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-api-base.i0] /net/fabricmc/fabric/api/event/EventFactory.class
-[15:52:33] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/Event.class', but only a single one can be returned!
+[18:02:10] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/Event.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/Event.class
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-api-base.i0] /net/fabricmc/fabric/api/event/Event.class
-[15:52:33] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/base/event/EventFactoryImpl.class', but only a single one can be returned!
+[18:02:10] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/base/event/EventFactoryImpl.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/base/event/EventFactoryImpl.class
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-api-base.i0] /net/fabricmc/fabric/impl/base/event/EventFactoryImpl.class
-[15:52:33] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/base/event/package-info.class', but only a single one can be returned!
+[18:02:10] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/base/event/package-info.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/base/event/package-info.class
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-api-base.i0] /net/fabricmc/fabric/impl/base/event/package-info.class
-[15:52:33] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/base/event/ArrayBackedEvent.class', but only a single one can be returned!
+[18:02:10] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/base/event/ArrayBackedEvent.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/base/event/ArrayBackedEvent.class
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-api-base.i0] /net/fabricmc/fabric/impl/base/event/ArrayBackedEvent.class
-[15:52:33] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerEntityEvents.class', but only a single one can be returned!
+[18:02:10] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerEntityEvents.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerEntityEvents.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerEntityEvents.class
-[15:52:35] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 88 milliseconds
-[15:52:35] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerBlockEntityEvents.class', but only a single one can be returned!
+[18:02:12] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 101 milliseconds
+[18:02:12] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerBlockEntityEvents.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerBlockEntityEvents.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerBlockEntityEvents.class
-[15:52:35] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientBlockEntityEvents.class', but only a single one can be returned!
+[18:02:12] [main/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientBlockEntityEvents.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientBlockEntityEvents.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientBlockEntityEvents.class
-[15:52:36] [main/INFO] (Initializer) [Quilt Command] Networking support is enabled
-[15:52:36] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/client/screen/ScreenExtensions.class', but only a single one can be returned!
+[18:02:13] [main/INFO] (Initializer) [Quilt Command] Networking support is enabled
+[18:02:13] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/client/screen/ScreenExtensions.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/impl/client/screen/ScreenExtensions.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/client/screen/ScreenExtensions.class
-[15:52:36] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/client/screen/ScreenEventFactory.class', but only a single one can be returned!
+[18:02:13] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/client/screen/ScreenEventFactory.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/impl/client/screen/ScreenEventFactory.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/client/screen/ScreenEventFactory.class
-[15:52:36] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenEvents.class', but only a single one can be returned!
+[18:02:13] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/ScreenEvents.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenEvents.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/ScreenEvents.class
-[15:52:36] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/client/screen/package-info.class', but only a single one can be returned!
+[18:02:13] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/client/screen/package-info.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/impl/client/screen/package-info.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/client/screen/package-info.class
-[15:52:36] [Render thread/WARN] (Minecraft) Assets URL 'quilt.zfs://transformed-mod-minecraft.i0:0/assets/.mcassetsroot' uses unexpected schema
-[15:52:36] [Render thread/WARN] (Minecraft) Assets URL 'quilt.zfs://transformed-mod-minecraft.i0:0/data/.mcassetsroot' uses unexpected schema
-[15:52:36] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:52:37] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[18:02:13] [Render thread/WARN] (Minecraft) Assets URL 'quilt.zfs://transformed-mod-minecraft.i0:0/assets/.mcassetsroot' uses unexpected schema
+[18:02:13] [Render thread/WARN] (Minecraft) Assets URL 'quilt.zfs://transformed-mod-minecraft.i0:0/data/.mcassetsroot' uses unexpected schema
+[18:02:13] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:02:14] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
@@ -323,161 +323,227 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
 	... 13 more
-[15:52:37] [Render thread/INFO] (Minecraft) Setting user: Player806
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/client/keybinding/package-info.class', but only a single one can be returned!
+[18:02:14] [Render thread/INFO] (Minecraft) Setting user: Player3
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/client/keybinding/package-info.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-key-binding-api-v1.i0] /net/fabricmc/fabric/mixin/client/keybinding/package-info.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/client/keybinding/package-info.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/base/event/EventPhaseData.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/base/event/EventPhaseData.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/base/event/EventPhaseData.class
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-api-base.i0] /net/fabricmc/fabric/impl/base/event/EventPhaseData.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/base/event/PhaseSorting.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/base/event/PhaseSorting.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/base/event/PhaseSorting.class
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-api-base.i0] /net/fabricmc/fabric/impl/base/event/PhaseSorting.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/base/event/PhaseSorting$PhaseScc.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/base/event/PhaseSorting$PhaseScc.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/base/event/PhaseSorting$PhaseScc.class
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-api-base.i0] /net/fabricmc/fabric/impl/base/event/PhaseSorting$PhaseScc.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/event/lifecycle/LifecycleEventsImpl.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/event/lifecycle/LifecycleEventsImpl.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/impl/event/lifecycle/LifecycleEventsImpl.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/event/lifecycle/LifecycleEventsImpl.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerChunkEvents.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerChunkEvents.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerChunkEvents.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerChunkEvents.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerWorldEvents.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerWorldEvents.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerWorldEvents.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerWorldEvents.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerWorldEvents$Load.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerWorldEvents$Load.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerWorldEvents$Load.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerWorldEvents$Load.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerWorldEvents$Unload.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerWorldEvents$Unload.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerWorldEvents$Unload.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerWorldEvents$Unload.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/resource/IdentifiableResourceReloadListener.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/resource/IdentifiableResourceReloadListener.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-resource-loader-v0.i0] /net/fabricmc/fabric/api/resource/IdentifiableResourceReloadListener.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/resource/IdentifiableResourceReloadListener.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/resource/ResourceReloadListenerKeys.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/resource/ResourceReloadListenerKeys.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-resource-loader-v0.i0] /net/fabricmc/fabric/api/resource/ResourceReloadListenerKeys.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/resource/ResourceReloadListenerKeys.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$ServerStarting.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$ServerStarting.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$ServerStarting.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$ServerStarting.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$ServerStarted.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$ServerStarted.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$ServerStarted.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$ServerStarted.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$ServerStopping.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$ServerStopping.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$ServerStopping.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$ServerStopping.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$ServerStopped.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$ServerStopped.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$ServerStopped.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$ServerStopped.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$StartDataPackReload.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$StartDataPackReload.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$StartDataPackReload.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$StartDataPackReload.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$EndDataPackReload.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$EndDataPackReload.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$EndDataPackReload.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents$EndDataPackReload.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents$StartTick.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents$StartTick.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents$StartTick.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents$StartTick.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents$EndTick.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents$EndTick.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents$EndTick.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents$EndTick.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents$StartWorldTick.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents$StartWorldTick.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents$StartWorldTick.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents$StartWorldTick.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents$EndWorldTick.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents$EndWorldTick.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents$EndWorldTick.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents$EndWorldTick.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientEntityEvents.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientEntityEvents.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientEntityEvents.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientEntityEvents.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/CommonLifecycleEvents.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/CommonLifecycleEvents.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/CommonLifecycleEvents.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/CommonLifecycleEvents.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/util/TriState.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/util/TriState.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/util/TriState.class
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-api-base.i0] /net/fabricmc/fabric/api/util/TriState.class
-[15:52:37] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/client/event/lifecycle/ClientLifecycleEventsImpl.class', but only a single one can be returned!
+[18:02:14] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/client/event/lifecycle/ClientLifecycleEventsImpl.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/impl/client/event/lifecycle/ClientLifecycleEventsImpl.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/client/event/lifecycle/ClientLifecycleEventsImpl.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/client/event/lifecycle/package-info.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/client/event/lifecycle/package-info.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/impl/client/event/lifecycle/package-info.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/client/event/lifecycle/package-info.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientChunkEvents.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientChunkEvents.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientChunkEvents.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientChunkEvents.class
-[15:52:37] [Worker-Main-1/INFO] (Mod Menu/Update Checker) Checking mod updates...
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/keybinding/v1/KeyBindingHelper.class', but only a single one can be returned!
+[18:02:14] [Worker-Main-1/INFO] (Mod Menu/Update Checker) Checking mod updates...
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/keybinding/v1/KeyBindingHelper.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-key-binding-api-v1.i0] /net/fabricmc/fabric/api/client/keybinding/v1/KeyBindingHelper.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/keybinding/v1/KeyBindingHelper.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/client/keybinding/KeyBindingRegistryImpl.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/client/keybinding/KeyBindingRegistryImpl.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-key-binding-api-v1.i0] /net/fabricmc/fabric/impl/client/keybinding/KeyBindingRegistryImpl.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/client/keybinding/KeyBindingRegistryImpl.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/client/keybinding/package-info.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/client/keybinding/package-info.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-key-binding-api-v1.i0] /net/fabricmc/fabric/impl/client/keybinding/package-info.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/client/keybinding/package-info.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents$StartTick.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents$StartTick.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents$StartTick.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents$StartTick.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents$EndTick.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents$EndTick.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents$EndTick.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents$EndTick.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents$StartWorldTick.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents$StartWorldTick.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents$StartWorldTick.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents$StartWorldTick.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents$EndWorldTick.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents$EndWorldTick.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents$EndWorldTick.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents$EndWorldTick.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/resource/loader/ModResourcePackCreator.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/resource/loader/ModResourcePackCreator.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-resource-loader-v0.i0] /net/fabricmc/fabric/impl/resource/loader/ModResourcePackCreator.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/resource/loader/ModResourcePackCreator.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/resource/loader/ResourcePackSourceTracker.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/resource/loader/ResourcePackSourceTracker.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-resource-loader-v0.i0] /net/fabricmc/fabric/impl/resource/loader/ResourcePackSourceTracker.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/resource/loader/ResourcePackSourceTracker.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/resource/loader/package-info.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/mixin/resource/loader/package-info.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-resource-loader-v0.i0] /net/fabricmc/fabric/mixin/resource/loader/package-info.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/mixin/resource/loader/package-info.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/resource/loader/package-info.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/resource/loader/package-info.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-resource-loader-v0.i0] /net/fabricmc/fabric/impl/resource/loader/package-info.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/resource/loader/package-info.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/resource/loader/ModResourcePackCreator$1.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/resource/loader/ModResourcePackCreator$1.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-resource-loader-v0.i0] /net/fabricmc/fabric/impl/resource/loader/ModResourcePackCreator$1.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/resource/loader/ModResourcePackCreator$1.class
-[15:52:37] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/resource/loader/FabricResource.class', but only a single one can be returned!
+[18:02:14] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/impl/resource/loader/FabricResource.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-resource-loader-v0.i0] /net/fabricmc/fabric/impl/resource/loader/FabricResource.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/impl/resource/loader/FabricResource.class
-[15:52:37] [Render thread/INFO] (ClientInitializer) [Quilt Command|Client] Networking support is enabled
-[15:52:37] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 build 7
-[15:52:38] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla (Quilted Fabric Message API (v1), Quilted Fabric Recipe API (v1), Quilted Fabric API Base, Quilt Tooltip API, Quilted Fabric Renderer API (v1), Quilt Resource Loader, Quilted Fabric Biome API (v1), Quilt Chat API, Quilted Fabric Command API (v2), Quilt Testing API, Quilted Fabric Key Bindings (v0), Quilt Registry Entry Attachment, Quilt Base API, Quilt Client Command API, Quilted Fabric Crash Report Info (v1), Quilted Fabric Renderer Registries (v1), Quilted Fabric Resource Conditions API (v1), Quilt Entity Networking API, Mod Menu, Quilted Fabric Content Registries (v0), Quilt Surface Rule API, Quilted Fabric Mining Level API (v1), Quilt Loader, Quilted Fabric Models (v0), Quilted Fabric BlockRenderLayer Registration (v1), Quilted Fabric Particles (v1), Quilted Fabric Transitive Access Wideners (v1), Quilt Screen API, Quilted Fabric API Lookup API (v1), Quilted Fabric Convention Tags API (v1), Quilt Entity API, Quilted Fabric Renderer - Indigo, Quilted Fabric Data Generation API (v1), Quilted Fabric Game Rule API (v1), Quilted Fabric Rendering Data Attachment (v1), Quilted Fabric Events Interaction (v0), Redisruption, Quilt Item Extensions API, Quilted Fabric Key Binding API (v1), Quilt Block Entity API, Quilted Fabric Transfer API (v1), Quilt Networking, Quilted Fabric Entity Events (v1), Quilt Tags API, Quilt Lifecycle Events, Quilted Fabric Networking API (v1), Quilt Entity Events, Quilted Fabric Dimensions API (v1), Quilt Item Content Registry API, Quilted Fabric API, Quilted Fabric Rendering (v1), Quilted Fabric Loot API (v2), Quilt Crash Info, Quilt Command API, Quilted Fabric Item API (v1), Quilted Fabric Client Tags, Quilted Fabric Sound API (v1), Quilted Fabric Block API (v1), Quilt Vehicle API, Quilted Fabric Registry Sync (v0), Quilt Recipe API, Quilted Fabric Rendering (v0), Quilted Fabric Item Group API (v1), Quilt Entity Rendering API, Quilt Block Content Registry API, Quilt Villager API, Quilted Fabric Screen Handler API (v1), Quilted Fabric Rendering Fluids (v1), Quilted Fabric Commands (v0), Quilt Multipart Entity API, Quilted Fabric Resource Loader (v0), Quilted Fabric Loot Tables (v1), Quilt Dimension API, Quilted Fabric Containers (v0), Quilted Fabric Object Builder API (v1), Quilt Biome API, Quilted Fabric Lifecycle Events (v1), Quilt Advancement API, Quilted Fabric Events Lifecycle (v0), Quilted Fabric Screen API (v1), Quilt Item Setting API, Quilt Status Effect API, Quilt Block Extensions API, Quilt Registry API, Quilted Fabric Networking (v0), Quilt Point of Interest API, Quilted Fabric Command API (v1))
-[15:52:38] [Worker-Main-2/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
-[15:52:38] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/Screens.class', but only a single one can be returned!
+[18:02:14] [Render thread/INFO] (ClientInitializer) [Quilt Command|Client] Networking support is enabled
+[18:02:14] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 build 7
+[18:02:15] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla (Quilted Fabric Mining Level API (v1), Quilt Item Content Registry API, Quilt Block Content Registry API, Quilted Fabric Key Binding API (v1), Quilted Fabric Message API (v1), Quilted Fabric Transitive Access Wideners (v1), Mod Menu, Quilt Entity Events, Quilted Fabric Particles (v1), Quilt Surface Rule API, Quilted Fabric Registry Sync (v0), Quilt Screen API, Quilt Networking, Quilt Entity Networking API, Quilt Chat API, Quilted Fabric Renderer API (v1), Quilted Fabric Resource Loader (v0), Quilted Fabric Sound API (v1), Quilted Fabric API Lookup API (v1), Quilt Status Effect API, Quilted Fabric BlockRenderLayer Registration (v1), Quilted Fabric Command API (v2), Quilted Fabric Commands (v0), Quilted Fabric Rendering Data Attachment (v1), Quilted Fabric Recipe API (v1), Quilt Crash Info, Quilted Fabric Events Lifecycle (v0), Quilted Fabric Screen API (v1), Quilted Fabric Events Interaction (v0), Quilted Fabric Biome API (v1), Quilted Fabric Rendering (v1), Quilted Fabric Crash Report Info (v1), Quilt Villager API, Quilt Block Entity API, Quilt Advancement API, Redisruption, Quilted Fabric Object Builder API (v1), Quilted Fabric Models (v0), Quilted Fabric Key Bindings (v0), Quilted Fabric Entity Events (v1), Quilt Tooltip API, Quilt Block Extensions API, Quilted Fabric Dimensions API (v1), Quilt Vehicle API, Quilt Multipart Entity API, Quilted Fabric Networking (v0), Quilt Point of Interest API, Quilted Fabric Item API (v1), Quilt Entity API, Quilted Fabric Block API (v1), Quilted Fabric Renderer Registries (v1), Quilted Fabric Screen Handler API (v1), Quilted Fabric Loot API (v2), Quilt Registry Entry Attachment, Quilted Fabric Convention Tags API (v1), Quilted Fabric Item Group API (v1), Quilted Fabric Rendering Fluids (v1), Quilt Tags API, Quilt Dimension API, Quilted Fabric Transfer API (v1), Quilted Fabric Client Tags, Quilt Resource Loader, Quilt Base API, Quilt Client Command API, Quilted Fabric Loot Tables (v1), Quilted Fabric Game Rule API (v1), Quilt Recipe API, Quilted Fabric Content Registries (v0), Quilted Fabric Renderer - Indigo, Quilted Fabric Command API (v1), Quilt Entity Rendering API, Quilted Fabric Containers (v0), Quilt Item Extensions API, Quilt Item Setting API, Quilted Fabric Data Generation API (v1), Quilted Fabric Resource Conditions API (v1), Quilt Registry API, Quilt Loader, Quilted Fabric Rendering (v0), Quilted Fabric API Base, Quilted Fabric Networking API (v1), Quilt Biome API, Quilt Command API, Quilted Fabric Lifecycle Events (v1), Quilt Testing API, Quilted Fabric API, Quilt Lifecycle Events)
+[18:02:15] [Worker-Main-12/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[18:02:15] [Render thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/client/screen/v1/Screens.class', but only a single one can be returned!
  - QuiltZipFileSystem[transformed-mod-quilted-fabric-screen-api-v1.i0] /net/fabricmc/fabric/api/client/screen/v1/Screens.class
  - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/client/screen/v1/Screens.class
-[15:52:38] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[15:52:39] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[15:52:39] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[15:52:39] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Headphones (WH-1000XM4)
-[15:52:39] [Render thread/INFO] (Minecraft) Sound engine started
-[15:52:39] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[15:52:39] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[15:52:39] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[15:52:39] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[15:52:39] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[15:52:39] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[15:52:39] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[15:52:39] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[15:52:39] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[15:52:39] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[15:52:39] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[15:52:39] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[15:52:39] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[15:52:44] [Render thread/INFO] (Minecraft) Stopping!
+[18:02:15] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[18:02:16] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[18:02:16] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[18:02:16] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Headphones (WH-1000XM4)
+[18:02:16] [Render thread/INFO] (Minecraft) Sound engine started
+[18:02:16] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[18:02:16] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[18:02:16] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[18:02:16] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[18:02:16] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[18:02:16] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[18:02:16] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[18:02:16] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[18:02:16] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[18:02:16] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[18:02:16] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[18:02:16] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[18:02:16] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[18:02:24] [Render thread/INFO] (RecipeManagerImpl) Registered 0 custom recipes.
+[18:02:24] [Render thread/INFO] (RecipeManagerImpl) Modified 0 recipes.
+[18:02:24] [Render thread/INFO] (RecipeManagerImpl) Removed 0 recipes.
+[18:02:24] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[18:02:24] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
+[18:02:25] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 3.319 ms
+[18:02:25] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
+[18:02:25] [Server thread/INFO] (Minecraft) Generating keypair
+[18:02:25] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[18:02:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:02:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:02:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:02:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 42%
+[18:02:27] [Render thread/INFO] (Minecraft) Time elapsed: 1959 ms
+[18:02:28] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[18:02:28] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[18:02:28] [Server thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerEntityEvents$Load.class', but only a single one can be returned!
+ - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerEntityEvents$Load.class
+ - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerEntityEvents$Load.class
+[18:02:28] [Server thread/WARN] (Quilt Loader) Multiple paths added for '/net/fabricmc/fabric/api/event/lifecycle/v1/ServerEntityEvents$Unload.class', but only a single one can be returned!
+ - QuiltZipFileSystem[transformed-mod-quilted-fabric-lifecycle-events-v1.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerEntityEvents$Unload.class
+ - QuiltZipFileSystem[transformed-mod-modmenu.i0] /net/fabricmc/fabric/api/event/lifecycle/v1/ServerEntityEvents$Unload.class
+[18:02:28] [Server thread/INFO] (Minecraft) Player3[local:E:c84e7e48] logged in with entity id 222 at (-1.6156438923338312, 74.0, 6.698045236891423)
+[18:02:28] [Server thread/INFO] (Minecraft) Player3 joined the game
+[18:02:29] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[18:02:33] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[18:02:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[18:02:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[18:02:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[18:02:36] [Render thread/INFO] (Minecraft) Using default channel type
+[18:02:36] [Render thread/INFO] (Minecraft) Started serving on 57663
+[18:02:36] [Render thread/INFO] (Minecraft) [System] [CHAT] Local game hosted on port [57663]
+[18:02:37] [Server thread/INFO] (Minecraft) [Player3: Set own game mode to Creative Mode]
+[18:02:37] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
+[18:02:45] [Server thread/INFO] (Minecraft) Changing simulation distance to 17, from 12
+[18:02:45] [Server thread/INFO] (Minecraft) Changing simulation distance to 27, from 17
+[18:02:45] [Server thread/INFO] (Minecraft) Changing simulation distance to 32, from 27
+[18:02:45] [Server thread/INFO] (Minecraft) Changing view distance to 22, from 12
+[18:02:45] [Server thread/INFO] (Minecraft) Changing view distance to 32, from 22
+[18:02:52] [Server thread/INFO] (Minecraft) Player3 has reached the goal [Sky's the Limit]
+[18:02:52] [Render thread/INFO] (Minecraft) [System] [CHAT] Player3 has reached the goal [Sky's the Limit]
+[18:02:52] [Render thread/INFO] (Minecraft) Loaded 7 advancements
+[18:03:24] [Render thread/INFO] (Minecraft) Loaded 10 advancements
+[18:03:25] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2143ms or 42 ticks behind
+[18:03:30] [Render thread/WARN] (Minecraft) Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[18:03:43] [Server thread/INFO] (Minecraft) Villager VillagerEntity['Villager'/16032, l='ServerLevel[New World]', x=-543.28, y=65.00, z=77.63] died, message: 'Villager suffocated in a wall'
+[18:03:45] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2107ms or 42 ticks behind
+[18:03:45] [Render thread/INFO] (Minecraft) Loaded 11 advancements
+[18:03:46] [Render thread/INFO] (Minecraft) Loaded 20 advancements
+[18:04:25] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 32
+[18:04:26] [Render thread/INFO] (Minecraft) Loaded 37 advancements
+[18:04:28] [Render thread/INFO] (Minecraft) Loaded 38 advancements
+[18:04:32] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 31959ms or 639 ticks behind
+[18:04:46] [Server thread/INFO] (Minecraft) Player3 lost connection: Disconnected
+[18:04:46] [Server thread/INFO] (Minecraft) Player3 left the game
+[18:04:46] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[18:04:46] [Server thread/INFO] (Minecraft) Stopping server
+[18:04:46] [Server thread/INFO] (Minecraft) Saving players
+[18:04:46] [Server thread/INFO] (Minecraft) Saving worlds
+[18:04:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[18:04:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[18:04:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[18:04:49] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World (6)): All chunks are saved
+[18:04:49] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:04:49] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:04:49] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[18:04:50] [Render thread/INFO] (Minecraft) Stopping!

@@ -227,12 +227,7 @@ public class BlockHandler {
 		if (isBlockReplaceable(blockState2) && (canPlace || canPlace2)) {
 
 			world.breakBlock(blockPos, true);
-
-			if (blockState2.contains(Properties.WATERLOGGED) && world.getFluidState(blockPos).getFluid() == Fluids.WATER) {
-				if (blockState.contains(Properties.WATERLOGGED));
-				blockState = blockState.with(Properties.WATERLOGGED, true);
-			}
-
+			
 			if (world.setBlockState(blockPos, blockState, 3)) {
 				((ServerWorld) world)
 						.getChunkManager()
