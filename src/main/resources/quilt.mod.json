@@ -27,7 +27,7 @@
 			},
 			{
 				"id": "quilted_fabric_api",
-				"versions": ">=7.0.4"
+				"versions": ">=7.0.5"
 			},
 			{
 				"id": "minecraft",

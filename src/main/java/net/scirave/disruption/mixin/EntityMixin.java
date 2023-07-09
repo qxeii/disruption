@@ -12,15 +12,20 @@
 package net.scirave.disruption.mixin;
 
 import net.minecraft.entity.Entity;
+import net.minecraft.text.Text;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
+import net.minecraft.world.event.GameEvent;
+import net.scirave.disruption.Disruption;
 import net.scirave.disruption.helpers.EntityVelocityInterface;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+
+import static net.scirave.disruption.Disruption.getGameEventTag;
 
 @Mixin(Entity.class)
 public abstract class EntityMixin implements EntityVelocityInterface {
@@ -46,5 +51,4 @@ public abstract class EntityMixin implements EntityVelocityInterface {
 	public void setVelocityProxy(Vec3d velocity) {
 		this.velocity = velocity;
 	}
-
 }

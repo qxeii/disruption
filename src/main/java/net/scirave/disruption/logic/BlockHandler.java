@@ -18,7 +18,6 @@ import net.minecraft.entity.FallingBlockEntity;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.network.packet.s2c.play.BlockUpdateS2CPacket;
-import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.state.property.Properties;
@@ -30,8 +29,6 @@ import net.scirave.disruption.Disruption;
 import net.scirave.disruption.DisruptionConfig;
 import net.scirave.disruption.helpers.FakeAboveShapeContext;
 import net.scirave.disruption.helpers.FallingGroupInterface;
-
-import javax.naming.spi.DirStateFactory;
 
 public class BlockHandler {
 
@@ -95,21 +92,21 @@ public class BlockHandler {
 
 	public static boolean isBuoyant(BlockState state) {
 		Block block = state.getBlock();
-		return state.isLavaIgnitable() || block.getSlipperiness() > 0.6f || Disruption.hasBlockTag(Disruption.BUOYANT, block);
+		return state.isLavaIgnitable() || block.getSlipperiness() > 0.6f || state.isIn(Disruption.BUOYANT);
 	}
 
     public static boolean canHang(BlockState state) {
 		Block block = state.getBlock();
-        return state.getLuminance() > 0 || (state.getSoundGroup() == BlockSoundGroup.GLASS && block.getSlipperiness() <= 0.6F) || Disruption.hasBlockTag(Disruption.HANGS, block);
+        return state.getLuminance() > 0 || (state.getSoundGroup() == BlockSoundGroup.GLASS && block.getSlipperiness() <= 0.6F) || state.isIn(Disruption.HANGS);
     }
 
 	public static boolean isProtected(BlockState state) {
-		return state.getSoundGroup() == BlockSoundGroup.GLASS || Disruption.hasBlockTag(Disruption.PROTECTED, state.getBlock());
+		return state.getSoundGroup() == BlockSoundGroup.GLASS || state.isIn(Disruption.PROTECTED);
 	}
 
 	public static boolean canFloat(BlockState state) {
 		Block block = state.getBlock();
-		return getBlastResistance(block) >= 1200 || Disruption.hasBlockTag(Disruption.FLOATS, block);
+		return getBlastResistance(block) >= 1200 || state.isIn(Disruption.FLOATS);
 	}
 
     public static boolean check(BlockState state, World world, BlockPos pos, int Recursion) {
@@ -200,12 +197,10 @@ public class BlockHandler {
         return false;
     }
 	public static boolean isBlockReplaceable(BlockState state) {
-		Block block = state.getBlock();
-		return Disruption.hasBlockTag(BlockTags.REPLACEABLE, block) || state.getPistonBehavior() == PistonBehavior.DESTROY;
+		return state.materialReplaceable() || state.getPistonBehavior() == PistonBehavior.DESTROY;
 	}
 
 	public static boolean isBlockIntangible(BlockState state, World world, BlockPos pos) {
-		Block block = state.getBlock();
 		AbstractBlock.AbstractBlockState abstractState = state;
 		return isBlockReplaceable(state) && !(abstractState.blocksMovement() || !state.getCollisionShape(world, pos, FakeAboveShapeContext.INSTANCE).isEmpty());
 	}
@@ -234,6 +229,7 @@ public class BlockHandler {
 			world.breakBlock(blockPos, true);
 
 			if (blockState2.contains(Properties.WATERLOGGED) && world.getFluidState(blockPos).getFluid() == Fluids.WATER) {
+				if (blockState.contains(Properties.WATERLOGGED));
 				blockState = blockState.with(Properties.WATERLOGGED, true);
 			}
 
@@ -282,7 +278,7 @@ public class BlockHandler {
 			return;
 		}
 
-        if (Disruption.hasBlockTag(Disruption.USE_DEFAULT_STATE, block)) {
+        if (state.isIn(Disruption.USE_DEFAULT_STATE)) {
             state = block.getDefaultState();
         }
 

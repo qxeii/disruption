@@ -11,6 +11,7 @@
 
 package net.scirave.disruption.mixin;
 
+import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.random.RandomGenerator;
 import net.minecraft.world.event.GameEvent;
 import net.scirave.disruption.Disruption;
@@ -22,8 +23,6 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import java.util.Random;
-
 @Mixin(FireBlock.class)
 public abstract class FireBlockMixin extends BlockMixin {
 
@@ -31,7 +30,7 @@ public abstract class FireBlockMixin extends BlockMixin {
     protected void disruption$fireSpread(World world, BlockPos pos, int spreadFactor, RandomGenerator random, int currentAge, CallbackInfo ci) {
 		if (world.getBlockState(pos).isAir()) {
 			GameEvent.Context context = GameEvent.Context.create(world.getBlockState(pos));
-			world.emitGameEvent(Disruption.FIRE_SPREAD, pos, context);
+			world.emitGameEvent(Disruption.FIRE_SPREAD, Vec3d.of(pos), context);
 		}
     }
 }

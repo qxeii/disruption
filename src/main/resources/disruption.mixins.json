@@ -8,7 +8,6 @@
     "EntityMixin",
     "FallingBlockEntityMixin",
     "FireBlockMixin",
-    "GameEventMixin",
     "ServerWorldMixin"
   ],
   "client": [],

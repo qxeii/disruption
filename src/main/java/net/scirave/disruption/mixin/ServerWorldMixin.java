@@ -13,7 +13,9 @@ package net.scirave.disruption.mixin;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.text.Text;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.event.GameEvent;
 import net.scirave.disruption.Disruption;
 import net.scirave.disruption.logic.BlockHandler;
@@ -30,39 +32,37 @@ public class ServerWorldMixin {
 
 	public final HashSet<BlockPos> disruption = new HashSet<>();
 	public final HashSet<BlockPos> neighborDisruptions = new HashSet<>();
-
-	@Inject(method = "emitGameEvent", at = @At(value = "RETURN", target = "Lnet/minecraft/world/WorldAccess;emitGameEvent(Lnet/minecraft/entity/Entity;Lnet/minecraft/world/event/GameEvent;Lnet/minecraft/util/math/BlockPos;)V"))
-	public void disruption$detectDisruption(Entity entity, GameEvent event, BlockPos pos) {
-		boolean entityExists = entity != null;
-
-		if (entityExists) {
-			if (Disruption.hasGameEventTag(Disruption.ENTITY_DISRUPTION, event)) {
-				disruption.add(pos);
-				return;
-			}
-		}
-		if (Disruption.hasGameEventTag(Disruption.DISRUPTION, event)) {
-			disruption.add(pos);
-			return;
-		}
-		if (entityExists) {
-			if (Disruption.hasGameEventTag(Disruption.ENTITY_NEIGHBOR_DISRUPTION, event)) {
-				neighborDisruptions.add(pos);
-				return;
-			}
-		}
-		if (Disruption.hasGameEventTag(Disruption.NEIGHBOR_DISRUPTION, event)) {
-			neighborDisruptions.add(pos);
-		}
-	}
-
 	@Inject(method = "tick", at = @At("RETURN"))
 	public void disruption$tickDisruptions(BooleanSupplier shouldKeepTicking, CallbackInfo ci) {
 		ServerWorld world = (ServerWorld) (Object) this;
-		disruption.forEach((pos) -> BlockHandler.updatePosAndNeighbors(world, pos));
-		disruption.clear();
-		neighborDisruptions.forEach((pos) -> BlockHandler.updatePosAndNeighbors(world, pos));
-		neighborDisruptions.clear();
+		if(disruption.size() > 0) {
+			((HashSet<BlockPos>) disruption.clone()).forEach((pos) -> BlockHandler.updatePosAndNeighbors(world, pos));
+			disruption.clear();
+		}
+		if(neighborDisruptions.size() > 0) {
+			((HashSet<BlockPos>) neighborDisruptions.clone()).forEach((pos) -> BlockHandler.updatePosAndNeighbors(world, pos));
+			neighborDisruptions.clear();
+		}
 	}
+	@Inject(method = "emitGameEvent", at = @At("RETURN"))
+	public void disruption$detectDisruption(GameEvent event, Vec3d pos, GameEvent.Context context, CallbackInfo CIR) {
+		BlockPos blockPos = BlockPos.fromPosition(pos);
 
+		if (event.isIn(Disruption.ENTITY_DISRUPTION)) {
+			disruption.add(blockPos);
+			return;
+		}
+		if (event.isIn(Disruption.DISRUPTION)) {
+			disruption.add(blockPos);
+			return;
+		}
+		if (event.isIn(Disruption.ENTITY_NEIGHBOR_DISRUPTION)) {
+			neighborDisruptions.add(blockPos);
+			return;
+		}
+		if (event.isIn(Disruption.NEIGHBOR_DISRUPTION)) {
+			neighborDisruptions.add(blockPos);
+		}
+	}
 }
+

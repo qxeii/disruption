@@ -14,6 +14,7 @@ package net.scirave.disruption.mixin;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 import net.minecraft.world.event.GameEvent;
 import net.minecraft.world.explosion.Explosion;
@@ -29,6 +30,6 @@ public abstract class BlockMixin {
     @Inject(method = "onDestroyedByExplosion", at = @At("RETURN"))
     protected void disruption$blockExploded(World world, BlockPos pos, Explosion explosion, CallbackInfo ci) {
 		GameEvent.Context context = GameEvent.Context.create(world.getBlockState(pos));
-		world.emitGameEvent(Disruption.BLOCK_EXPLODED, pos, context);
+		world.emitGameEvent(Disruption.BLOCK_EXPLODED, Vec3d.of(pos), context);
     }
 }

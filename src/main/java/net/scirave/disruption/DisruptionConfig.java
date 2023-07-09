@@ -13,7 +13,7 @@ package net.scirave.disruption;
 
 public class DisruptionConfig {
 
-	private static final int MAX_BLOCK_UPDATES = 50;
+	private static final int MAX_BLOCK_UPDATES = 500;
 	private static final float CAVE_IN_DAMAGE_SCALING = 1.0F;
 	private static final float HARDNESS_SCALING = 2.0F;
 	private static final float BLAST_RESISTANCE_SCALING = 1.0F;
