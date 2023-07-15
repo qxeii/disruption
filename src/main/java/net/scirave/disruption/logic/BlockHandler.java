@@ -227,7 +227,7 @@ public class BlockHandler {
 		if (isBlockReplaceable(blockState2) && (canPlace || canPlace2)) {
 
 			world.breakBlock(blockPos, true);
-			
+
 			if (world.setBlockState(blockPos, blockState, 3)) {
 				((ServerWorld) world)
 						.getChunkManager()
