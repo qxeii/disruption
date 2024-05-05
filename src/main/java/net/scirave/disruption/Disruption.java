@@ -1,7 +1,7 @@
 /*
  * -------------------------------------------------------------------
- * Disruption
- * Copyright (c) 2022 SciRave
+ * Re-Disruption
+ * Copyright (c) 2024 qxeii, SciRave
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -27,16 +27,16 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Disruption implements ModInitializer {
-    public static final String MOD_ID = "disruption";
+	public static final String MOD_ID = "disruption";
 
-    public static final TagKey<Block> HANGS = getBlockTag("hangs");
-    public static final TagKey<Block> PROTECTED = getBlockTag("protected");
-    public static final TagKey<Block> BUOYANT = getBlockTag("buoyant");
+	public static final TagKey<Block> HANGS = getBlockTag("hangs");
+	public static final TagKey<Block> PROTECTED = getBlockTag("protected");
+	public static final TagKey<Block> BUOYANT = getBlockTag("buoyant");
 	public static final TagKey<Block> FLOATS = getBlockTag("floats");
-    public static final TagKey<Block> USE_DEFAULT_STATE = getBlockTag("default_state");
+	public static final TagKey<Block> USE_DEFAULT_STATE = getBlockTag("default_state");
 
-	public static final GameEvent FIRE_SPREAD = new GameEvent("fire_spread", 16);
-	public static final GameEvent BLOCK_EXPLODED = new GameEvent("block_exploded", 16);
+	public static final GameEvent FIRE_SPREAD =	Registry.register(Registries.GAME_EVENT, "fire_spread", new GameEvent(16));
+	public static final GameEvent BLOCK_EXPLODED = Registry.register(Registries.GAME_EVENT, "block_exploded", new GameEvent(16));
 
 	public static final TagKey<GameEvent> DISRUPTION = getGameEventTag("disruption");
 	public static final TagKey<GameEvent> NEIGHBOR_DISRUPTION = getGameEventTag("neighbor_disruption");
@@ -55,8 +55,6 @@ public class Disruption implements ModInitializer {
 	}
     @Override
     public void onInitialize(ModContainer mod) {
-		Registry.register(Registries.GAME_EVENT, Identifier.tryParse(FIRE_SPREAD.getId()), FIRE_SPREAD);
-		Registry.register(Registries.GAME_EVENT, Identifier.tryParse(BLOCK_EXPLODED.getId()), BLOCK_EXPLODED);
         Logger.getLogger(MOD_ID).log(Level.INFO, "[{}] It's raining stone and.. barrels?", mod.metadata().name());
     }
 }

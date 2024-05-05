@@ -1,7 +1,7 @@
 /*
  * -------------------------------------------------------------------
- * Disruption
- * Copyright (c) 2022 SciRave
+ * Re-Disruption
+ * Copyright (c) 2024 qxeii, SciRave
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -13,6 +13,8 @@ package net.scirave.disruption.mixin;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.registry.Registries;
+import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;

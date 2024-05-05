@@ -30,10 +30,10 @@ bin/
 
 # fabric
 
-run/
-
 /run/
 /run/crash-reports/
 /run/logs/
 /run/config/
 /run/.cache/
+/run
+/run/logs

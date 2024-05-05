@@ -1,7 +1,7 @@
 /*
  * -------------------------------------------------------------------
- * Disruption
- * Copyright (c) 2022 SciRave
+ * Re-Disruption
+ * Copyright (c) 2024 qxeii, SciRave
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -232,7 +232,6 @@ public class BlockHandler {
 				((ServerWorld) world)
 						.getChunkManager()
 						.sendToOtherNearbyPlayers(fallingBlock, new BlockUpdateS2CPacket(blockPos, world.getBlockState(blockPos)));
-				fallingBlock.discard();
 
 				if (block instanceof LandingBlock) {
 					((LandingBlock) block).onLanding(world, blockPos, blockState, blockState, fallingBlock);
@@ -252,11 +251,12 @@ public class BlockHandler {
 					}
 				}
 
+				fallingBlock.discard();
 				return true;
 			}
 		} else if (!isBlockReplaceable(blockState2)) {
 			fallingBlock.discard();
-			if (fallingBlock.dropItem && fallingBlock.getWorld().getGameRules().getBoolean(GameRules.DO_ENTITY_DROPS)) {
+			if (fallingBlock.dropItem && fallingBlock.getWorld().getGameRules().getBooleanValue(GameRules.DO_ENTITY_DROPS)) {
 				fallingBlock.onDestroyedOnLanding(block, blockPos);
 				fallingBlock.dropItem(block);
 			}

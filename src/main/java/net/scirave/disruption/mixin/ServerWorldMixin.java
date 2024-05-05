@@ -1,7 +1,7 @@
 /*
  * -------------------------------------------------------------------
- * Disruption
- * Copyright (c) 2022 SciRave
+ * Re-Disruption
+ * Copyright (c) 2024 qxeii, SciRave
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
